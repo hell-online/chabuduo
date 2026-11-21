@@ -23,11 +23,11 @@ const config = {
   CFPORT: process.env.CFPORT || '443',                // 优选域名或优选ip对应端口
   NAME: process.env.NAME || '',                       // 节点备注
   S5_PORT: process.env.S5_PORT || '',                 // socks5端口,支持多端口玩具可填写，否则不动
-  HY2_PORT: process.env.HY2_PORT || '',               // Hy2 端口，支持多端口玩具可填写，否则不动
-  TUIC_PORT: process.env.TUIC_PORT || '',             // Tuic 端口，支持多端口玩具可填写，否则不动 
-  ANYTLS_PORT: process.env.ANYTLS_PORT || '',         // AnyTLS 端口,支持多端口玩具可填写，否则不动
-  REALITY_PORT: process.env.REALITY_PORT || '',       // Reality 端口,支持多端口玩具可填写，否则不动  
-  ANYREALITY_PORT: process.env.ANYREALITY_PORT || '', // Any Reality 端口,支持多端口玩具可填写，否则不动
+  HY2_PORT: process.env.HY2_PORT || '51043',               // Hy2 端口，支持多端口玩具可填写，否则不动
+  TUIC_PORT: process.env.TUIC_PORT || '51044',             // Tuic 端口，支持多端口玩具可填写，否则不动 
+  ANYTLS_PORT: process.env.ANYTLS_PORT || '51045',         // AnyTLS 端口,支持多端口玩具可填写，否则不动
+  REALITY_PORT: process.env.REALITY_PORT || '51046',       // Reality 端口,支持多端口玩具可填写，否则不动  
+  ANYREALITY_PORT: process.env.ANYREALITY_PORT || '51047', // Any Reality 端口,支持多端口玩具可填写，否则不动
   CHAT_ID: process.env.CHAT_ID || '',                 // TG chat_id，可在https://t.me/laowang_serv00_bot 获取
   BOT_TOKEN: process.env.BOT_TOKEN || '',             // TG bot_token, 使用自己的bot需要填写,使用上方的bot不用填写,不会给别人发送
   UPLOAD_URL: process.env.UPLOAD_URL || '',           // 节点上传地址，需部署merge-sub订阅器项目，例如：https://merge.xxx.com
